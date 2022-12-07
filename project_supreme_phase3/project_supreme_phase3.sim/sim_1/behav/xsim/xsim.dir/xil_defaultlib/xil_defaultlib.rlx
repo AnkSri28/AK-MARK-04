@@ -1,0 +1,13 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sim_1/new/ak_simple_tb.sv,1669784884,systemVerilog,,,,simple_tb,,,,,,,,
+/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1670313051,verilog,,,,blk_mem_gen_0,,,,,,,,
+/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v,1669957820,verilog,,/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,blk_mem_gen_1,,,,,,,,
+/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/ip/div_gen_0/sim/div_gen_0.vhd,1670322484,vhdl,,,,div_gen_0,,,,,,,,
+/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/new/ak_divider.sv,1669876371,systemVerilog,,/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/new/ak_inst_execute.sv,,ak_divider,,,,,,,,
+/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/new/ak_inst_execute.sv,1670324925,systemVerilog,,/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/new/ak_mem_access.sv,,akie,,,,,,,,
+/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/new/ak_mem_access.sv,1669963316,systemVerilog,,/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/new/ak_top.sv,,aim,,,,,,,,
+/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sources_1/new/ak_top.sv,1669963264,systemVerilog,,/home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.srcs/sim_1/new/ak_simple_tb.sv,,top_file,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec  6 15:58:07 2022
+# Process ID: 160988
+# Current directory: /home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.runs/div_gen_0_synth_1
+# Command line: vivado -log div_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source div_gen_0.tcl
+# Log file: /home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.runs/div_gen_0_synth_1/div_gen_0.vds
+# Journal file: /home/in_ankith/project/project_supreme_phase3/project_supreme_phase3.runs/div_gen_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source div_gen_0.tcl -notrace

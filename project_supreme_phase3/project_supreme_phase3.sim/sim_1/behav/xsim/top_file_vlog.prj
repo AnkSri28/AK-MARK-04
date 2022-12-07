@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_supreme_phase3.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+
+sv xil_defaultlib  \
+"../../../../project_supreme_phase3.srcs/sources_1/new/ak_inst_execute.sv" \
+"../../../../project_supreme_phase3.srcs/sources_1/new/ak_mem_access.sv" \
+"../../../../project_supreme_phase3.srcs/sources_1/new/ak_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

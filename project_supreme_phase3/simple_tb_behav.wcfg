@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simple_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simple_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="683000001fs"></ZoomEndTime>
+      <Cursor1Time time="45000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="178"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="118" />
+   <wvobject type="logic" fp_name="/simple_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/inst">
+      <obj_property name="ElementShortName">inst[44:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[44:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/valid_inst">
+      <obj_property name="ElementShortName">valid_inst</obj_property>
+      <obj_property name="ObjectShortName">valid_inst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/ready_inst">
+      <obj_property name="ElementShortName">ready_inst</obj_property>
+      <obj_property name="ObjectShortName">ready_inst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/inst_done">
+      <obj_property name="ElementShortName">inst_done</obj_property>
+      <obj_property name="ObjectShortName">inst_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/opcode">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/opregs1">
+      <obj_property name="ElementShortName">opregs1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opregs1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/opregs2">
+      <obj_property name="ElementShortName">opregs2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opregs2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/opregout">
+      <obj_property name="ElementShortName">opregout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opregout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider31" type="divider">
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/d1/pc">
+      <obj_property name="ElementShortName">pc[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/d1/pc_valid">
+      <obj_property name="ElementShortName">pc_valid</obj_property>
+      <obj_property name="ObjectShortName">pc_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/d1/pc_ready">
+      <obj_property name="ElementShortName">pc_ready</obj_property>
+      <obj_property name="ObjectShortName">pc_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/d1/mem">
+      <obj_property name="ElementShortName">mem[44:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[44:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/d1/inst_reg">
+      <obj_property name="ElementShortName">inst_reg[44:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_reg[44:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div_en">
+      <obj_property name="ElementShortName">div_en</obj_property>
+      <obj_property name="ObjectShortName">div_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/pipe_next">
+      <obj_property name="ElementShortName">pipe_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pipe_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider156" type="divider">
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg0">
+      <obj_property name="ElementShortName">rg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg1">
+      <obj_property name="ElementShortName">rg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg2">
+      <obj_property name="ElementShortName">rg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg3">
+      <obj_property name="ElementShortName">rg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg3[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg4">
+      <obj_property name="ElementShortName">rg4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg4[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg5">
+      <obj_property name="ElementShortName">rg5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg5[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg6">
+      <obj_property name="ElementShortName">rg6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg6[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg7">
+      <obj_property name="ElementShortName">rg7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg7[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg8">
+      <obj_property name="ElementShortName">rg8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg8[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg9">
+      <obj_property name="ElementShortName">rg9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg9[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg10">
+      <obj_property name="ElementShortName">rg10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg10[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg11">
+      <obj_property name="ElementShortName">rg11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg11[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg12">
+      <obj_property name="ElementShortName">rg12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg12[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg13">
+      <obj_property name="ElementShortName">rg13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg13[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg14">
+      <obj_property name="ElementShortName">rg14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg14[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg15">
+      <obj_property name="ElementShortName">rg15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg15[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg16">
+      <obj_property name="ElementShortName">rg16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg16[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg17">
+      <obj_property name="ElementShortName">rg17[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg17[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg18">
+      <obj_property name="ElementShortName">rg18[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg18[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg19">
+      <obj_property name="ElementShortName">rg19[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg19[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg20">
+      <obj_property name="ElementShortName">rg20[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg20[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg21">
+      <obj_property name="ElementShortName">rg21[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg21[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg22">
+      <obj_property name="ElementShortName">rg22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg22[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg23">
+      <obj_property name="ElementShortName">rg23[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg23[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg24">
+      <obj_property name="ElementShortName">rg24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg24[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg25">
+      <obj_property name="ElementShortName">rg25[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg25[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg26">
+      <obj_property name="ElementShortName">rg26[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg26[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg27">
+      <obj_property name="ElementShortName">rg27[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg27[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg28">
+      <obj_property name="ElementShortName">rg28[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg28[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg29">
+      <obj_property name="ElementShortName">rg29[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg29[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg30">
+      <obj_property name="ElementShortName">rg30[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg30[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/rg31">
+      <obj_property name="ElementShortName">rg31[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg31[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider365" type="divider">
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/aresetn">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/s_axis_divisor_tdata">
+      <obj_property name="ElementShortName">s_axis_divisor_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/s_axis_divisor_tvalid">
+      <obj_property name="ElementShortName">s_axis_divisor_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/s_axis_divisor_tready">
+      <obj_property name="ElementShortName">s_axis_divisor_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/s_axis_dividend_tdata">
+      <obj_property name="ElementShortName">s_axis_dividend_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/s_axis_dividend_tvalid">
+      <obj_property name="ElementShortName">s_axis_dividend_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/s_axis_dividend_tready">
+      <obj_property name="ElementShortName">s_axis_dividend_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/m_axis_dout_tdata">
+      <obj_property name="ElementShortName">m_axis_dout_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tdata[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/m_axis_dout_tready">
+      <obj_property name="ElementShortName">m_axis_dout_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/m_axis_dout_tvalid">
+      <obj_property name="ElementShortName">m_axis_dout_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1074" type="divider">
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/dividend">
+      <obj_property name="ElementShortName">dividend[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/dividend_valid">
+      <obj_property name="ElementShortName">dividend_valid</obj_property>
+      <obj_property name="ObjectShortName">dividend_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/dividend_ready">
+      <obj_property name="ElementShortName">dividend_ready</obj_property>
+      <obj_property name="ObjectShortName">dividend_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/divisor">
+      <obj_property name="ElementShortName">divisor[31:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/divisor_valid">
+      <obj_property name="ElementShortName">divisor_valid</obj_property>
+      <obj_property name="ObjectShortName">divisor_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/divisor_ready">
+      <obj_property name="ElementShortName">divisor_ready</obj_property>
+      <obj_property name="ObjectShortName">divisor_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div_out">
+      <obj_property name="ElementShortName">div_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">div_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div_out_valid">
+      <obj_property name="ElementShortName">div_out_valid</obj_property>
+      <obj_property name="ObjectShortName">div_out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div_out_ready">
+      <obj_property name="ElementShortName">div_out_ready</obj_property>
+      <obj_property name="ObjectShortName">div_out_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div_next">
+      <obj_property name="ElementShortName">div_next[1:0]</obj_property>
+      <obj_property name="ObjectShortName">div_next[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider779" type="divider">
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/rsta_busy">
+      <obj_property name="ElementShortName">rsta_busy</obj_property>
+      <obj_property name="ObjectShortName">rsta_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/rstb_busy">
+      <obj_property name="ElementShortName">rstb_busy</obj_property>
+      <obj_property name="ObjectShortName">rstb_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_aclk">
+      <obj_property name="ElementShortName">s_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_aresetn">
+      <obj_property name="ElementShortName">s_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/mem2/s_axi_awaddr">
+      <obj_property name="ElementShortName">s_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_awvalid">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_awready">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/mem2/s_axi_wdata">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/mem2/s_axi_wstrb">
+      <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_wvalid">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_wready">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/mem2/s_axi_bresp">
+      <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_bvalid">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_bready">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/mem2/s_axi_araddr">
+      <obj_property name="ElementShortName">s_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_arvalid">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_arready">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/mem2/s_axi_rdata">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/mem2/s_axi_rresp">
+      <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_rvalid">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/mem2/s_axi_rready">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1051" type="divider">
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/str_next">
+      <obj_property name="ElementShortName">str_next[1:0]</obj_property>
+      <obj_property name="ObjectShortName">str_next[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/ldr_next">
+      <obj_property name="ElementShortName">ldr_next[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ldr_next[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/m_axi_araddr">
+      <obj_property name="ElementShortName">m_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_arready">
+      <obj_property name="ElementShortName">m_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_arvalid">
+      <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/m_axi_awaddr">
+      <obj_property name="ElementShortName">m_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_awready">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_awvalid">
+      <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_bready">
+      <obj_property name="ElementShortName">m_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_bvalid">
+      <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/m_axi_bresp">
+      <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/m_axi_rdata">
+      <obj_property name="ElementShortName">m_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_rready">
+      <obj_property name="ElementShortName">m_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/m_axi_rresp">
+      <obj_property name="ElementShortName">m_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_rvalid">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/m_axi_wdata">
+      <obj_property name="ElementShortName">m_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_wready">
+      <obj_property name="ElementShortName">m_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/m_axi_wstrb">
+      <obj_property name="ElementShortName">m_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/m_axi_wvalid">
+      <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1069" type="divider">
+   </wvobject>
+</wave_config>
